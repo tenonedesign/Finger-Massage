@@ -11,19 +11,10 @@
 		D0A5B0971AF054F100A6EDE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0961AF054F100A6EDE9 /* main.m */; };
 		D0A5B09A1AF054F100A6EDE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0991AF054F100A6EDE9 /* ViewController.m */; };
 		D0A5B09C1AF054F100A6EDE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A5B09B1AF054F100A6EDE9 /* Images.xcassets */; };
-		D0A5B09F1AF054F100A6EDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A5B09D1AF054F100A6EDE9 /* Main.storyboard */; };
-		D0A5B0AB1AF054F100A6EDE9 /* Finger_MassageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0AA1AF054F100A6EDE9 /* Finger_MassageTests.m */; };
+		D0A5B0B71AF0554D00A6EDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A5B0B61AF0554D00A6EDE9 /* Main.storyboard */; };
+		D0A5B0B91AF0556300A6EDE9 /* MassageSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0A5B0B81AF0556300A6EDE9 /* MassageSettings.plist */; };
+		D0A5B0BE1AF0558D00A6EDE9 /* MassageWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0BD1AF0558D00A6EDE9 /* MassageWindow.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0A5B0A51AF054F100A6EDE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A5B0861AF054F100A6EDE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0A5B08D1AF054F100A6EDE9;
-			remoteInfo = "Finger Massage";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0A5B08E1AF054F100A6EDE9 /* Finger Massage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finger Massage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,21 +25,18 @@
 		D0A5B0981AF054F100A6EDE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D0A5B0991AF054F100A6EDE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0A5B09B1AF054F100A6EDE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0A5B09E1AF054F100A6EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0A5B0A41AF054F100A6EDE9 /* Finger MassageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger MassageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A5B0A91AF054F100A6EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0A5B0AA1AF054F100A6EDE9 /* Finger_MassageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_MassageTests.m; sourceTree = "<group>"; };
+		D0A5B0B41AF0553B00A6EDE9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0A5B0B51AF0553B00A6EDE9 /* UNLICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = UNLICENSE; sourceTree = "<group>"; };
+		D0A5B0B61AF0554D00A6EDE9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0A5B0B81AF0556300A6EDE9 /* MassageSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MassageSettings.plist; sourceTree = "<group>"; };
+		D0A5B0BA1AF0557900A6EDE9 /* Finger Massage.ai */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Finger Massage.ai"; sourceTree = "<group>"; };
+		D0A5B0BB1AF0558300A6EDE9 /* CGMassage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMassage.h; sourceTree = "<group>"; };
+		D0A5B0BC1AF0558D00A6EDE9 /* MassageWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassageWindow.h; sourceTree = "<group>"; };
+		D0A5B0BD1AF0558D00A6EDE9 /* MassageWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassageWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D0A5B08B1AF054F100A6EDE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0A5B0A11AF054F100A6EDE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,8 +49,9 @@
 		D0A5B0851AF054F100A6EDE9 = {
 			isa = PBXGroup;
 			children = (
+				D0A5B0B41AF0553B00A6EDE9 /* README.md */,
+				D0A5B0B51AF0553B00A6EDE9 /* UNLICENSE */,
 				D0A5B0901AF054F100A6EDE9 /* Finger Massage */,
-				D0A5B0A71AF054F100A6EDE9 /* Finger MassageTests */,
 				D0A5B08F1AF054F100A6EDE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				D0A5B08E1AF054F100A6EDE9 /* Finger Massage.app */,
-				D0A5B0A41AF054F100A6EDE9 /* Finger MassageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +69,14 @@
 			children = (
 				D0A5B0931AF054F100A6EDE9 /* AppDelegate.h */,
 				D0A5B0941AF054F100A6EDE9 /* AppDelegate.m */,
+				D0A5B0BC1AF0558D00A6EDE9 /* MassageWindow.h */,
+				D0A5B0BD1AF0558D00A6EDE9 /* MassageWindow.m */,
 				D0A5B0981AF054F100A6EDE9 /* ViewController.h */,
 				D0A5B0991AF054F100A6EDE9 /* ViewController.m */,
+				D0A5B0BB1AF0558300A6EDE9 /* CGMassage.h */,
 				D0A5B09B1AF054F100A6EDE9 /* Images.xcassets */,
-				D0A5B09D1AF054F100A6EDE9 /* Main.storyboard */,
+				D0A5B0BA1AF0557900A6EDE9 /* Finger Massage.ai */,
+				D0A5B0B61AF0554D00A6EDE9 /* Main.storyboard */,
 				D0A5B0911AF054F100A6EDE9 /* Supporting Files */,
 			);
 			path = "Finger Massage";
@@ -94,24 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				D0A5B0921AF054F100A6EDE9 /* Info.plist */,
+				D0A5B0B81AF0556300A6EDE9 /* MassageSettings.plist */,
 				D0A5B0961AF054F100A6EDE9 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D0A5B0A71AF054F100A6EDE9 /* Finger MassageTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0A5B0AA1AF054F100A6EDE9 /* Finger_MassageTests.m */,
-				D0A5B0A81AF054F100A6EDE9 /* Supporting Files */,
-			);
-			path = "Finger MassageTests";
-			sourceTree = "<group>";
-		};
-		D0A5B0A81AF054F100A6EDE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0A5B0A91AF054F100A6EDE9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,24 +112,6 @@
 			productReference = D0A5B08E1AF054F100A6EDE9 /* Finger Massage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0A5B0A31AF054F100A6EDE9 /* Finger MassageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0A5B0B11AF054F100A6EDE9 /* Build configuration list for PBXNativeTarget "Finger MassageTests" */;
-			buildPhases = (
-				D0A5B0A01AF054F100A6EDE9 /* Sources */,
-				D0A5B0A11AF054F100A6EDE9 /* Frameworks */,
-				D0A5B0A21AF054F100A6EDE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0A5B0A61AF054F100A6EDE9 /* PBXTargetDependency */,
-			);
-			name = "Finger MassageTests";
-			productName = "Finger MassageTests";
-			productReference = D0A5B0A41AF054F100A6EDE9 /* Finger MassageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +123,6 @@
 				TargetAttributes = {
 					D0A5B08D1AF054F100A6EDE9 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					D0A5B0A31AF054F100A6EDE9 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = D0A5B08D1AF054F100A6EDE9;
 					};
 				};
 			};
@@ -186,7 +140,6 @@
 			projectRoot = "";
 			targets = (
 				D0A5B08D1AF054F100A6EDE9 /* Finger Massage */,
-				D0A5B0A31AF054F100A6EDE9 /* Finger MassageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,14 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A5B09C1AF054F100A6EDE9 /* Images.xcassets in Resources */,
-				D0A5B09F1AF054F100A6EDE9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0A5B0A21AF054F100A6EDE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D0A5B0B91AF0556300A6EDE9 /* MassageSettings.plist in Resources */,
+				D0A5B0B71AF0554D00A6EDE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,37 +165,11 @@
 				D0A5B09A1AF054F100A6EDE9 /* ViewController.m in Sources */,
 				D0A5B0971AF054F100A6EDE9 /* main.m in Sources */,
 				D0A5B0951AF054F100A6EDE9 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0A5B0A01AF054F100A6EDE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0A5B0AB1AF054F100A6EDE9 /* Finger_MassageTests.m in Sources */,
+				D0A5B0BE1AF0558D00A6EDE9 /* MassageWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0A5B0A61AF054F100A6EDE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0A5B08D1AF054F100A6EDE9 /* Finger Massage */;
-			targetProxy = D0A5B0A51AF054F100A6EDE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0A5B09D1AF054F100A6EDE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A5B09E1AF054F100A6EDE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0A5B0AC1AF054F100A6EDE9 /* Debug */ = {
@@ -352,42 +273,6 @@
 			};
 			name = Release;
 		};
-		D0A5B0B21AF054F100A6EDE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Finger MassageTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finger Massage.app/Contents/MacOS/Finger Massage";
-			};
-			name = Debug;
-		};
-		D0A5B0B31AF054F100A6EDE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Finger MassageTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finger Massage.app/Contents/MacOS/Finger Massage";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,14 +290,6 @@
 			buildConfigurations = (
 				D0A5B0AF1AF054F100A6EDE9 /* Debug */,
 				D0A5B0B01AF054F100A6EDE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D0A5B0B11AF054F100A6EDE9 /* Build configuration list for PBXNativeTarget "Finger MassageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0A5B0B21AF054F100A6EDE9 /* Debug */,
-				D0A5B0B31AF054F100A6EDE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

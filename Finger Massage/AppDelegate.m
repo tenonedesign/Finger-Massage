@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  Finger Massage
-//
-//  Created by Peter Skinner on 4/28/15.
-//  Copyright (c) 2015 Ten One Design. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 
@@ -20,6 +14,10 @@
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
 	// Insert code here to tear down your application
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+	return YES;
 }
 
 @end

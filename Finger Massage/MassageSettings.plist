@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>massageSpeedSliderValue</key>
+	<real>0.7</real>
+	<key>massageMinInterval</key>
+	<real>0.0095</real>
+	<key>massageMaxInterval</key>
+	<real>0.07000000000000001</real>
+	<key>massageIntensitySliderValue</key>
+	<integer>2</integer>
+	<key>massageMinIntensity</key>
+	<integer>0</integer>
+	<key>massageMaxIntensity</key>
+	<integer>3</integer>
+</dict>
+</plist>
